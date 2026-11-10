@@ -12,4 +12,4 @@ Python · CUDA C++ · Triton · PyTorch · NumPy · Google Colab
 Implemented and benchmarked Basic CUDA, Shared-Memory Tiling, Register Tiling, and PyTorch GPU implementations.
 
 Benchmark (512 × 512):
-<img width="1914" height="1048" alt="image" src="https://github.com/user-attachments/assets/2d7609c3-7fe6-4534-8906-6e070292e7d5" />
+<img width="1546" height="776" alt="image" src="https://github.com/user-attachments/assets/392eeeeb-ea16-40ca-bc66-c9b0179fb36d" />
