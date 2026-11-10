@@ -13,3 +13,8 @@ Implemented and benchmarked Basic CUDA, Shared-Memory Tiling, Register Tiling, a
 
 Benchmark (512 × 512):
 <img width="1546" height="776" alt="image" src="https://github.com/user-attachments/assets/392eeeeb-ea16-40ca-bc66-c9b0179fb36d" />
+**Key Takeaways**
+- Shared-memory tiling reduced execution time by **8.84%** compared to Basic CUDA (2.6901 ms → 2.4524 ms).
+- Register tiling achieved a **1.89% improvement** over Basic CUDA but was **7.62% slower** than Shared-Memory Tiling.
+- PyTorch GPU achieved **20.20× speedup** over Basic CUDA, reducing execution time from 2.6901 ms to 0.1332 ms.
+- PyTorch GPU was approximately **18.41× faster** than the best custom CUDA implementation (Shared-Memory Tiling).
